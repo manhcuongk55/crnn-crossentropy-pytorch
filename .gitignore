@@ -118,3 +118,4 @@ cell_images/
 cell_processed_images/
 mnist_images/
 mnist_processed_images/
+.idea/
