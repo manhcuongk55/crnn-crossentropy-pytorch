@@ -28,8 +28,9 @@ val_path = 'mnist_processed_images/validation_set/'
 image_files = []
 for file in glob(os.path.join(val_path, '*')):
     image_files.append(file)
-
-img = PIL.Image.open(image_files[12])
+path_img = image_files[12]
+print("Path to image {}".format(path_img))
+img = PIL.Image.open(path_img)
 plt.imshow(img)
 
 result = model.predict(VAL_TRANSFORMS(img).unsqueeze(0).to(device))
