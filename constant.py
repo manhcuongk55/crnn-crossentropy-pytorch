@@ -1,9 +1,9 @@
 from torchvision import transforms
 
-IMG_PATH = 'mnist_processed_images/training_set/'
-VAL_IMG_PATH = 'mnist_processed_images/validation_set/'
-LABELS = 'mnist_processed_images/training_set_values.txt'
-VAL_LABELS = 'mnist_processed_images/validation_set_values.txt'
+IMG_PATH = 'mnist_images/training_set/'
+VAL_IMG_PATH = 'mnist_images/validation_set/'
+LABELS = 'mnist_images/training_set_values.txt'
+VAL_LABELS = 'mnist_images/validation_set_values.txt'
 
 HIDDEN_DIM = 512
 OUTPUT_DIM = 13

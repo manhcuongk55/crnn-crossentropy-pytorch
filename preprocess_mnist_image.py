@@ -49,9 +49,9 @@ def min_resize(image, min_size=32):
 
 
 # Settings
-IMG_PATH = 'mnist_images/training_set/'
+IMG_PATH = 'mnist_processed_images/training_set/'
 OUT_PATH = 'mnist_processed_images/training_set/'
-IMG_VAL_PATH = 'mnist_images/validation_set/'
+IMG_VAL_PATH = 'mnist_processed_images/validation_set/'
 OUT_VAL_PATH = 'mnist_processed_images/validation_set/'
 
 
