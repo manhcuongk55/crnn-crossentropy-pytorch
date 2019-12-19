@@ -84,7 +84,7 @@ class OCRDatasetVal(torch.utils.data.dataset.Dataset):
 
     def __getitem__(self, index):
         image_path = self.images[index]
-        image = Image.open(f'{VAL_IMG_PATH}{image_path}')
+        image = Image.open(f'{image_path}')
         if self.transforms:
             image = self.transforms(image)
 
